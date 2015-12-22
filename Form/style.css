@@ -18,6 +18,7 @@ body {
 	border-radius: 6px;
 	margin: 0 auto;
 	padding: 20px;
+    box-shadow: 0px 0px 10px #000;
 }
 .title_form{
 	text-align: center;
@@ -86,11 +87,4 @@ strong {
 	background-color: #DDDDDD;
 	color: #6F7B91;
 	font-size: 16px;
-}
-#registration {
-	display: none;
-	background: #fff;
-	position: absolute;
-	top: 0px;
-	left: 460px;
 }

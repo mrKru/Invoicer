@@ -21,7 +21,7 @@
 						<li>FAQ</li>
 						<li>TUTORIALS</li>
 					</ul>
-					<a class="button_nav" href="#"  onclick="document.getElementById('registration') .style.display = 'block';">SING UP</a>
+					<a class="button_nav" href="#" onclick="showPopup()">SING UP</a>
 				</div>	
 			</nav>
 			<!-- меню ввода email-->
@@ -29,7 +29,7 @@
 				<h1 class="title_input">Easiest invoces</h1>
 				<p class="text_input">Never been so ease to manage your time and task</p>
 				<input class="mail_input" type="text" placeholder="Email">
-				<a class="header_button" href="#">SING UP</a>
+				<a class="header_button" href="#" onclick="showPopup()">SING UP</a>
 			</div>
 			<a class="button_arrow" href="#our_features"><img src="image/logo_main.png" alt="logo"></a>
 		</header>
@@ -37,7 +37,7 @@
 	<main id="our_features">
 		<h1 class="title">Our features</h1>
 
-		<div>
+		<div class="block">
 			<div class="text">
 				<img class="logo_text" src="image/logo_book.png" alt="logo">
 				<h2 class="text_title">Easy invoces that save time</h2>	
@@ -59,7 +59,7 @@
 			</div>
 		</div>
 
-		<div>
+		<div class="block">
 			<div class="text">
 				<img class="logo_text" src="image/logo_phone.png" alt="logo">
 				<h2 class="text_title">iOS & Android applications soon...</h2>
@@ -104,7 +104,7 @@
 		</div>
 	</footer>
 	<!--Форма регистрации-->
-<div class="form" id="registration">	
+<div class="form" id="popup1">	
 		<h1 class="title_form">Sing up</h1>
 		<hr>
 		<form>
@@ -173,8 +173,8 @@
 					<input class="register" type="button" value="Register"><br>
 					<input class="clear" type="button" value="Clear">
 			</div>
-
 			</form>	
 		</div>	
+		</div>
  </body>
  </html>

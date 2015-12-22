@@ -8,6 +8,12 @@
 }
 body {
 	font-family: sans-serif;
+	 margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 .header-bg{
@@ -130,7 +136,7 @@ h1 {
 }
 .block_two{
 	height: 590px;
-	width: 100%;
+	width: auto;
 	background: url("image/image_main.jpg");
 	background-size: cover;
 	color: #fff;
