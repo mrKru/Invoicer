@@ -9,8 +9,8 @@
 body {
 	width: 1350px;
 	font-family: sans-serif;
-	 margin: 0 auto;
-  position: relative;
+	margin: 0 auto;
+    position: relative;
 }
 
 .header-bg{
@@ -101,7 +101,7 @@ h1 {
 	max-width: 460px;
 	position: absolute;
     top: 250px;
-    left: 480px;
+    left: 460px;
     text-align: center;
     display: inline-block;
 }
@@ -216,19 +216,33 @@ p {
 .footer_menu {
 	position: relative;
     top: 40px;
-    left: 480px;
+    left: 460px;
     text-align: center;
     display: inline-block;
 }
 .footer {
+	height: 100px;
 	margin-top: 20px;
 	padding: 0px 80px;	
 	color: gray;
 }	
+.logotype_footer {
+	width: 200px;
+	margin: auto;
+	position: absolute;
+	left: 60px;
+	bottom: 30px;
+}
+.nav_footer {
+	max-width: 770px;
+	margin: auto;
+	position: absolute;
+	left: 435px;
+	bottom: 15px;
+	float: left;
+}
 .info {
 	font-size: 14px;
-	position: relative;
-	left: 210px;
 	padding: 18px;
 	display: inline-block;
 	font-family: Apercu;
