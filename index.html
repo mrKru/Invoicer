@@ -5,6 +5,16 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="Form/style.css">
 	<title>Site</title>
+	<script type="text/javascript">
+function showPopup(){
+  document.getElementById("popup1").style.display = "block";
+  return false;
+}
+function hidePopup(){
+  document.getElementById("popup1").style.display = "none";
+  return false;
+}
+</script>
 </head>
 <body>	
 	<div class="header-bg">
@@ -104,7 +114,9 @@
 		</div>
 	</footer>
 	<!--Форма регистрации-->
-<div class="form" id="popup1">	
+<div class="popup" id="popup1">
+<div class="form">	
+<div id="circle"><a href="#"class="hide" onclick="hidePopup()">x</a></div>
 		<h1 class="title_form">Sing up</h1>
 		<hr>
 		<form>
