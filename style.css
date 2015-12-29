@@ -7,7 +7,7 @@
 	src: url(font/Apercu/apercu_light-webfont.ttf);
 }
 body {
-	width: 1350px;
+	width: 100vw;
 	font-family: sans-serif;
 	margin: 0 auto;
     position: relative;
@@ -15,26 +15,30 @@ body {
 
 .header-bg{
 	height: 660px;
-	width: auto;
+	width: 100vw;
 	background: url("image/image_header.jpg");
 	background-size: cover;
 	color: #fff;
 	padding: 2vh;
 }
-
-.logo, .button_nav {
-	margin: 3px ;
+.nav {
+	width:100%;
+	text-align: center;
+	margin: 0 auto;
+}
+.logo{
+	margin: 3px;
 	float: left;
 }
 .logo_text {
 	padding: 20px 0px 0px 5px;
-	float: left;
+	display: inline-block;
 	font-weight: normal;
 	font-family: Apercu; 
 }
 header nav ul {
-	float: left;
-	margin: 10px;
+	display: inline-block;
+	margin: 20px;
 }
 li {
 	list-style: none;
@@ -42,32 +46,27 @@ li {
 	padding: 15px;
 	font-family: Apercu;
 }
-header nav {
-	float: left;
-}
 .logotype {
-	width: 200px;
-	margin: auto;
-	position: absolute;
-	left: 60px;
-	top: 30px;
+	display: inline-block;
+	vertical-align: middle;
 }
-.nav {
+.menu {
+	min-width: 900px;
 	margin: auto;
-	position: absolute;
-	right: 60px;
-	top: 30px;
-	float: left;
+	display: inline-block;
+	vertical-align: middle;
+	
 }
 .button_nav {
 	border: 0.99px solid #fff;
 	border-radius: 3px;
 	background: none;
 	padding: 10px 20px;
-	margin: 10px;
+	margin-left: 10%;
 	text-decoration: none;
 	color: #fff;
 	font-family: Apercu;
+	display: inline-block;
 }
 .title_input {
 	font-size: 50px;
@@ -91,22 +90,20 @@ h1 {
 	font-family: Apercu;
 }
 .mail_input {
-	width: 325px;
+	width: 70%;
 	height: 23px;
 	border-radius: 3px 0px 0px 3px;
 	border: none;
 	padding: 26.5px;
 }
 .input_mail {
-	max-width: 460px;
-	position: absolute;
-    top: 250px;
-    left: 460px;
+	max-width: 500px;
+	height: 260px;
+	margin: 190px auto;
     text-align: center;
-    display: inline-block;
 }
 .header_button {
-	min-width: 100px;
+	width: 30%;
 	height: 53px;
 	border-radius: 0px 3px 3px 0px;
     background: #6782c2;
@@ -117,7 +114,7 @@ h1 {
 	color: #fff;
 }
 .footer_button {
-	min-width: 100px;
+	width: 30%;
 	height: 53px;
 	border-radius: 0px 3px 3px 0px;
     background: #3ecacb;
@@ -128,9 +125,10 @@ h1 {
 	color: #fff;
 }
 .button_arrow {
-	position: absolute;
-    top: 550px;
-    left: 660px;
+	width: 4%;
+	height: 55px;
+    margin: -170px auto;
+    text-align: center;
 }
 .title {
 	text-align: center;
@@ -146,10 +144,15 @@ h1 {
 }
 .block_two{
 	height: 590px;
-	width: auto;
+	width: 100vw;
+	margin: auto;
 	background: url("image/image_main.jpg");
 	background-size: cover;
 	color: #fff;
+}
+.block_menu {
+	max-width: 1600px;
+	margin: auto;
 }
 .logo_text{
 	float: left;
@@ -208,38 +211,36 @@ p {
 }
 .footer_block {
 	height: 250px;
-	width: auto;
+	width: 100vw;
 	background: url("image/image_footer.jpg");
 	background-size: cover;
 	color: #fff;
 }
 .footer_menu {
-	position: relative;
-    top: 40px;
-    left: 460px;
+	max-width: 500px;
+	height: 260px;
+	margin: auto;
+	padding-top: 20px;
     text-align: center;
-    display: inline-block;
-}
+	}
 .footer {
 	height: 100px;
-	margin-top: 20px;
-	padding: 0px 80px;	
+	width:100%;
+	text-align: center;
+	margin: 0 auto;
 	color: gray;
 }	
 .logotype_footer {
 	width: 200px;
 	margin: auto;
-	position: absolute;
-	left: 60px;
-	bottom: 30px;
+	display: inline-block;
+	vertical-align: middle;
 }
 .nav_footer {
-	max-width: 770px;
+	min-width: 900px;
 	margin: auto;
-	position: absolute;
-	left: 435px;
-	bottom: 15px;
-	float: left;
+	display: inline-block;
+	vertical-align: middle;
 }
 .info {
 	font-size: 14px;
@@ -259,6 +260,7 @@ p {
 	font-family: Apercu;
 }
 .aery {
-	float: right;
+	vertical-align: middle;
+	display: inline-block;
 	
 }

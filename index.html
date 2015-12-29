@@ -6,27 +6,27 @@
 	<link rel="stylesheet" type="text/css" href="Form/style.css">
 	<title>Site</title>
 	<script type="text/javascript">
-function showPopup(){
-  document.getElementById("popup1").style.display = "block";
-  return false;
-}
-function hidePopup(){
-  document.getElementById("popup1").style.display = "none";
-  return false;
-}
-</script>
+		function showPopup(){
+			document.getElementById("popup1").style.display = "block";
+			return false;
+		}
+		function hidePopup(){
+			document.getElementById("popup1").style.display = "none";
+			return false;
+		}
+	</script>
 </head>
 <body>	
 	<div class="header-bg">
 		<header>
-			<nav>
-			<div class="logotype">
-			<a href="/">
-				<img class="logo" src="image/logo.png" alt="logo">
-			</a>
-			<h2 class="logo_text">Invoicer</h2>
-			</div>	
-			<div class="nav">		
+			<nav class="nav">
+				<div class="logotype">
+					<a href="/">
+						<img class="logo" src="image/logo.png" alt="logo">
+					</a>
+					<h2 class="logo_text">Invoicer</h2>
+				</div>	
+				<div class="menu">		
 					<ul>
 						<li>OUR FEATURES</li>
 						<li>ABOUT US</li>
@@ -43,122 +43,126 @@ function hidePopup(){
 				<input class="mail_input" type="text" placeholder="Email">
 				<a class="header_button" href="#" onclick="showPopup()">SING UP</a>
 			</div>
-			<a class="button_arrow" href="#our_features"><img src="image/logo_main.png" alt="logo"></a>
+			<div class="button_arrow" >
+				<a href="#our_features"><img src="image/logo_main.png" alt="logo"></a>
+			</div>
 		</header>
-		</div>
+	</div>
 	<main id="our_features">
 		<h1 class="title">Our features</h1>
 
-		<div class="block">
+		<div class="block_menu">
 			<div class="text">
-				<img class="logo_text" src="image/logo_book.png" alt="logo">
-				<h2 class="text_title">Easy invoces that save time</h2>	
-				<p class="gray">This is Photoshop's version of Lorem lpsum. Proin gravida nibh<br> vel velit auctor aliquet. Aenean Jollicitudin, lorem quis bibendum<br> auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.<br> Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.<br> Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt</p>
+				<div><img class="logo_text" src="image/logo_book.png" alt="logo"></div>
+				<div><h2 class="text_title">Easy invoces that save time</h2>	
+					<p class="gray">This is Photoshop's version of Lorem lpsum. Proin gravida nibh<br> vel velit auctor aliquet. Aenean Jollicitudin, lorem quis bibendum<br> auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.<br> Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.<br> Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt</p></div>
+				</div>
+				<div class="picture">
+					<img class="picture_main" src="image/image_1.jpg" alt="logo">
+				</div>
 			</div>
-			<div class="picture">
-				<img class="picture_main" src="image/image_1.jpg" alt="logo">
-			</div>
-		</div>
 
-		<div class="block_two">
-			<div class="picture_two">
-				<img class="" src="image/image_2.jpg" alt="logo">
+			<div class="block_two">
+				<div class="block_menu">
+					<div class="picture_two">
+						<img class="" src="image/image_2.jpg" alt="logo">
+					</div>
+					<div class="text_two">
+						<img class="logo_text" src="image/logo_time.png" alt="logo">
+						<h2 class="text_title">lntegrated time tracking</h2>
+						<p>This is Photoshop's version of Lorem lpsum. Proin gravida nibh<br> vel velit auctor aliquet. Aenean Jollicitudin, lorem quis bibendum<br> auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.<br> Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.<br> Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt</p>
+					</div>	
+				</div>
 			</div>
-			<div class="text_two">
-				<img class="logo_text" src="image/logo_time.png" alt="logo">
-				<h2 class="text_title">lntegrated time tracking</h2>
-				<p>This is Photoshop's version of Lorem lpsum. Proin gravida nibh<br> vel velit auctor aliquet. Aenean Jollicitudin, lorem quis bibendum<br> auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.<br> Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.<br> Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt</p>
-			</div>
-		</div>
 
-		<div class="block">
-			<div class="text">
-				<img class="logo_text" src="image/logo_phone.png" alt="logo">
-				<h2 class="text_title">iOS & Android applications soon...</h2>
-				<p class="gray">This is Photoshop's version of Lorem lpsum. Proin gravida nibh<br> vel velit auctor aliquet. Aenean Jollicitudin, lorem quis bibendum<br> auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.<br> Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.<br> Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt</p>
+			<div class="block_menu">
+				<div class="text">
+					<img class="logo_text" src="image/logo_phone.png" alt="logo">
+					<h2 class="text_title">iOS & Android applications soon...</h2>
+					<p class="gray">This is Photoshop's version of Lorem lpsum. Proin gravida nibh<br> vel velit auctor aliquet. Aenean Jollicitudin, lorem quis bibendum<br> auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.<br> Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.<br> Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt</p>
+				</div>
+				<div class="picture_three">
+					<img class="main_third" src="image/image_phone.jpg" alt="logo">
+				</div>
 			</div>
-			<div class="picture_three">
-				<img class="main_third" src="image/image_phone.jpg" alt="logo">
-			</div>
-		</div>
 
-		<div class="gallery">
-			<h1 class="title_gallery">User's review</h1>
-			<img src="image/man.png" alt="Men">
-			<p class="gallery_text">"Aery guided us to redesign our web and mobile app.<br>One year later, we're still thrilled with the work."</p>
-			<p class="galery_info">Andrew Brandeirs, CEO of invoicer</p>
-		</div>
+			<div class="gallery">
+				<h1 class="title_gallery">User's review</h1>
+				<img src="image/man.png" alt="Men">
+				<p class="gallery_text">"Aery guided us to redesign our web and mobile app.<br>One year later, we're still thrilled with the work."</p>
+				<p class="galery_info">Andrew Brandeirs, CEO of invoicer</p>
+			</div>
 		</main>
-	<footer>
-		<div class="footer_block">	 	
-			<div class="footer_menu">	
-				<h1 class="title_input_footer">Don't forget to sing up</h1>		
-				<input class="mail_input" type="text" placeholder="Email">
-				<a class="footer_button" href="#" onclick="showPopup()">SING UP</a>
+		<footer>
+			<div class="footer_block">	 	
+				<div class="footer_menu">	
+					<h1 class="title_input_footer">Don't forget to sing up</h1>		
+					<input class="mail_input" type="text" placeholder="Email">
+					<a class="footer_button" href="#" onclick="showPopup()">SING UP</a>
+				</div>
 			</div>
-		</div>
-	
-		<div class="footer">
-		<div class="logotype_footer">
-			<a href="/">
-				<img class="logo" src="image/logo.png" alt="logo">
-			</a>
-			<h2 class="logo_text">Invoicer</h2>
-			</div>
-			<div class="nav_footer">	
-			<ul class="info">
-				<li>&copy;	Copyright 2014 lnvoicer</li>
-				<li>info@invoicer.nl</li>
-				<li>0634870104</li>
-			</ul>
-			</div>
-			<div class="aery">
-			<a href="/">
-				<img src="image/aery.png" alt="logo">
-			</a>
-			</div>
+			
+			<div class="footer">
+				<div class="logotype_footer">
+					<a href="/">
+						<img class="logo" src="image/logo.png" alt="logo">
+					</a>
+					<h2 class="logo_text">Invoicer</h2>
+				</div>
+				<div class="nav_footer">	
+					<ul class="info">
+						<li>&copy;	Copyright 2014 lnvoicer</li>
+						<li>info@invoicer.nl</li>
+						<li>0634870104</li>
+					</ul>
+				</div>
+				<div class="aery">
+					<a href="/">
+						<img src="image/aery.png" alt="logo">
+					</a>
+				</div>
 			</div>
 		</div>
 	</footer>
 	<!--Форма регистрации-->
-<div class="popup" id="popup1">
-<div class="form">	
-<div id="circle"><a href="#"class="hide" onclick="hidePopup()">x</a></div>
-		<h1 class="title_form">Sing up</h1>
-		<hr>
-		<form>
-			<div class="block">	
-				<div>
-					<p class="label">Username</p>
-					<input class="input" type="text" name="username"><br>
-				</div>
-				<div>
-					<p class="label">E-mail</p>
-					<input class="input" type="text"><br>
-				</div>
-
-				<div class="halfsize">
-					<p class="label">Password</p>
-					<input class="password" type="password" name="password">
-				</div>
-				
-				<div class="halfsize">
-					<p class="label">Confirm Password</p>
-					<input class="password" type="password" name="confirm_password">
-				</div>
-			</div>		
+	<div class="popup" id="popup1">
+		<div class="form">	
+			<div id="circle"><a href="#"class="hide" onclick="hidePopup()">x</a></div>
+			<h1 class="title_form">Sing up</h1>
 			<hr>
-			<div class="block">
-				<div class="halfsize">
-					<p class="label">First Name</p>
-					<input class="halfinput" type="text" name="firstname"><br>
-				</div>
+			<form>
+				<div class="block">	
+					<div>
+						<p class="label">Username</p>
+						<input class="input" type="text" name="username"><br>
+					</div>
+					<div>
+						<p class="label">E-mail</p>
+						<input class="input" type="text"><br>
+					</div>
 
-				<div class="halfsize">
-					<p class="label">Last Name</p>
-					<input class="halfinput" type="text" name="lastname"><br>
-				</div>
-			</div>	
+					<div class="halfsize">
+						<p class="label">Password</p>
+						<input class="password" type="password" name="password">
+					</div>
+					
+					<div class="halfsize">
+						<p class="label">Confirm Password</p>
+						<input class="password" type="password" name="confirm_password">
+					</div>
+				</div>		
+				<hr>
+				<div class="block">
+					<div class="halfsize">
+						<p class="label">First Name</p>
+						<input class="halfinput" type="text" name="firstname"><br>
+					</div>
+
+					<div class="halfsize">
+						<p class="label">Last Name</p>
+						<input class="halfinput" type="text" name="lastname"><br>
+					</div>
+				</div>	
 
 				<div class="about">
 					<strong>Sex</strong>
@@ -191,9 +195,9 @@ function hidePopup(){
 					<label for="agree">I agree with<a href="/">Terms and condition</a></label>
 					<input class="register" type="button" value="Register"><br>
 					<input class="clear" type="button" value="Clear">
-			</div>
+				</div>
 			</form>	
 		</div>	
-		</div>
- </body>
- </html>
+	</div>
+</body>
+</html>
